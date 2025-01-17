@@ -45,48 +45,45 @@ This project is a simple RESTful API built using Laravel. It includes authentica
     git clone https://github.com/emmanuel-olawuni/rest-api.git
     cd rest-api
     ```
-2.  **Install Dependencies:**:
+2.  **Install Dependencies:**
+
     ```bash
     composer install
     ```
 
 3.  **Set Up Environment:**
 
-        ```bash
+    ```bash
         cp .env.example .env
-        ```
+    ```
 
-Update the .env file with your database credentials:
+    Update the .env file with your database credentials:
 
-        ```bash
-
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=your_database
-    DB_USERNAME=your_username
-    DB_PASSWORD=your_password
-
-        ```
-    
+     ```bash
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=your_database
+        DB_USERNAME=your_username
+        DB_PASSWORD=your_password
+    ```
 
 4.  **Generate App Key**:
     ```bash
-php artisan key:generate
+      php artisan key:generate
     ```
-4.  **Run Migrations:**:
+5.  **Run Migrations:**
     ```bash
-php artisan migrate
+      php artisan migrate
     ```
-4.  **Set Up JWT Secret:**:
+6.  **Set Up JWT Secret:**:
     ```bash
-php artisan jwt:secret
+       php artisan jwt:secret
     ```
-4.  **Start the Server:**:
+7.  **Start the Server:**
     ```bash
-php artisan serve
+        php artisan serve
     ```
 
-
-**API Documentation**
- The api documentation is available on postman at [postman](https://www.postman.com/emma2001/my-workspace/collection/gkph1l5/simple-rest-api?action=share&creator=23922527)
+**Video URL**
+The video is uploaded on google drive [https://drive.google.com/file/d/1vHaBAGRvx9JMvuA62Z_6gDYlAP06cfC7/view?usp=sharing](https://drive.google.com/file/d/1vHaBAGRvx9JMvuA62Z_6gDYlAP06cfC7/view?usp=sharing)
