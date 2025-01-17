@@ -85,5 +85,11 @@ This project is a simple RESTful API built using Laravel. It includes authentica
         php artisan serve
     ```
 
+    **You can run the PHP test by**
+
+    ```bash
+        php artisan test
+    ```
+
 **Video URL**
 The video is uploaded on google drive [https://drive.google.com/file/d/1vHaBAGRvx9JMvuA62Z_6gDYlAP06cfC7/view?usp=sharing](https://drive.google.com/file/d/1vHaBAGRvx9JMvuA62Z_6gDYlAP06cfC7/view?usp=sharing)
